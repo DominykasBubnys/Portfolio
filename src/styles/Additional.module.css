@@ -1,0 +1,38 @@
+.container{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.stack_container{
+    width: 45%;
+    list-style: none;
+}
+
+.certificates_container{
+    width: 40%;
+    max-height: 50vh;
+    overflow-y: scroll;
+
+}
+
+.image_container{
+    width: 55%;
+    border-radius: 5px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.image_container img{
+    width: 100%;
+}
+
+@media (max-width: 800px) {
+
+    .certificates_container, .image_container{
+        width: 90%;
+    }
+
+    
+}
