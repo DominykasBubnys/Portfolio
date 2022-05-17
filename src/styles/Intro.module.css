@@ -8,9 +8,14 @@
 
 .paragraph{
     font-family: 'Noto Sans', sans-serif;
-    width: 80%;
     letter-spacing: 2;
     line-height: 1.8;
     color: rgb(255, 250, 223);
-    padding: 20px;
+    padding: 30px;
+}
+
+@media (max-width: 800px) {
+    .container{
+        width: 90%;
+    }
 }
