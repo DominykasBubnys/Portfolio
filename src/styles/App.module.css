@@ -1,15 +1,18 @@
 *{
     padding: 0;
     margin: 0;
+    text-align: center;
 }
 
 .container{
+    padding-top: 15vh;
     background-color: rgb(255, 253, 223);
     width: 100%;
     height: 100vh;
 }
 
 .container_dark{
+    padding-top: 15vh;
     background-color: 131111;
     width: 100%;
     height: 100vh;

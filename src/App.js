@@ -1,6 +1,7 @@
 import React, { useCallback, useState } from "react";
 import classes from "./styles/App.module.css";
 import Header from "./components/Header";
+import Intro from "./components/Intro";
 import {ThemeContext} from "./components/Context/ThemeContext";
 
 const App = () => {
@@ -13,8 +14,8 @@ const App = () => {
 
   return <ThemeContext.Provider value={{darkTheme, toggleTheme}}>
     <div className={darkTheme ? classes.container_dark : classes.container}>
-      < Header />
-    
+      <Header />
+      <Intro />
     </div>
   </ThemeContext.Provider>;
 };

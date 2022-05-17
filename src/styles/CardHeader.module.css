@@ -1,0 +1,15 @@
+.dark_theme{
+    /* background-color: rgba(52, 32, 32, 1); */
+}
+
+.container{
+    background-color: rgb(41, 26, 26);
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.text{
+    color: rgba(245, 230, 230, 1)
+}
