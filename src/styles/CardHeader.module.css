@@ -19,7 +19,6 @@
 .h2,
 .h3 {
   margin: 0;
-  color: #fff;
   text-rendering: optimizeLegibility;
   font-weight: 400;
 }
@@ -27,4 +26,5 @@
   font-family: Carter One, sans-serif;
   font-size: 2.6em;
   line-height: 1.2;
+  color: #73fac8;
 }

@@ -32,8 +32,12 @@
   left: 4px;
   border-radius: 20px;
 
-  background-color: white;
-  -webkit-transition: 0.4s;
+  background-color: #b9745a;
+  background: radial-gradient(
+    farthest-corner at var(--x, 0) var(--y, 0),
+    rgb(245, 245, 220),
+    #d38b71
+  );
   transition: 0.4s;
 }
 

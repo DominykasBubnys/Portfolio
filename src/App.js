@@ -6,6 +6,7 @@ import Card from "./components/Card";
 import ProjectsList from "./components/ProjectsList";
 import {ThemeContext} from "./components/Context/ThemeContext";
 import Additional from "./components/Additional";
+import "./styles/global.css"
 
 const App = () => {
 
