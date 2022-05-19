@@ -56,5 +56,9 @@ input:focus + .slider {
 
 input:checked + .slider:before {
   transform: translateX(37px);
-  background-color: rgb(65, 36, 36);
+  background: radial-gradient(
+    farthest-corner at var(--x, 0) var(--y, 0),
+    #73fac8,
+    #00bee1
+  );
 }

@@ -18,19 +18,19 @@ const Additional = (props) => {
         <div className={classes.certificates_container}>
 
             <div className={classes.image_container}>
-                <img src={require("../assets/certificate_1.jpg")} />
+                <img src={"./assets/certificate_1.jpg"} alt="" />
                 <h5>Certificated at 2022 - 02</h5>
             </div>
             <div className={classes.image_container}>
-                <img src={require("../assets/certificate_1.jpg")} />
+                <img src={"./assets/certificate_1.jpg"} alt="" />
                 <h5>Certificated at 2022 - 05</h5>
             </div>
             <div className={classes.image_container}>
-                <img src={require("../assets/certificate_1.jpg")} />
+                <img src={"./assets/certificate_3.png"} alt="" />
                 <h5>In process! Started at 2021-11</h5>
             </div>
             <div className={classes.image_container}>
-                <img src={require("../assets/certificate_1.jpg")} />
+                <img src={"./assets/certificate_4.jpg"} alt="" />
                 <h5>In process! Started at 2020 - 09</h5>
             </div>
 

@@ -3,7 +3,8 @@
 }
 
 .container{
-    background-color: rgb(41, 26, 26);
+    /* background: rgba(0, 190, 225, 0.15); */
+
     width: 100%;
     margin: 0 auto;
     margin-bottom: 15px;
@@ -11,6 +12,19 @@
 }
 
 .text{
-    color: rgba(245, 230, 230, 1);
+    color: #73fac8;
     font-family: 'Merriweather', serif;
+}
+.h1,
+.h2,
+.h3 {
+  margin: 0;
+  color: #fff;
+  text-rendering: optimizeLegibility;
+  font-weight: 400;
+}
+.h1 {
+  font-family: Carter One, sans-serif;
+  font-size: 2.6em;
+  line-height: 1.2;
 }

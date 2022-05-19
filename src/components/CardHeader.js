@@ -9,7 +9,7 @@ const CardHeader = ({text}) => {
 
   return (
     <div className={classes.container}>
-        <h1 className={classes.text}>
+        <h1 className={classes.h1}>
             {text}
         </h1>
     </div>

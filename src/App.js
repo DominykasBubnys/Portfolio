@@ -3,7 +3,7 @@ import classes from "./styles/App.module.css";
 import Header from "./components/Header";
 import Intro from "./components/Intro";
 import Card from "./components/Card";
-import Projects from "./components/Projects";
+import ProjectsList from "./components/ProjectsList";
 import {ThemeContext} from "./components/Context/ThemeContext";
 import Additional from "./components/Additional";
 
@@ -21,7 +21,7 @@ const App = () => {
       <Intro />
 
       <Card name="Projects">
-        <Projects />
+        <ProjectsList />
       </Card>
 
       <Card name={`Tech stack & certificates`}>

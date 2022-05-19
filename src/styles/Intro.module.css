@@ -1,7 +1,7 @@
 .container{
     width: 45%;
     margin: 0 auto;
-    background-color: rgba(216, 197, 197, 0.2);
+
     border-radius: 20px 20px 5px 5px;
     overflow: hidden;
 }
@@ -10,7 +10,8 @@
     font-family: 'Noto Sans', sans-serif;
     letter-spacing: 2;
     line-height: 1.8;
-    color: rgb(255, 250, 223);
+    color: hsla(0, 0%, 100%, 0.6);
+
     padding: 30px;
 }
 

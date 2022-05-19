@@ -2,11 +2,23 @@
     padding: 0;
     margin: 0;
     text-align: center;
+    color: rgba(245, 230, 230, 1);
+    
+    /* color: #73fac8; */
+    /* text-shadow: 0 0 10px rgba(115, 250, 200, 0.4); */
+}
+
+h1, h2, h3{
+    font-family: 'Merriweather', serif;
+}
+
+h1, h2{
+    letter-spacing: 1px;
 }
 
 .container{
     padding-top: 15vh;
-    background-color: rgb(255, 253, 223);
+    background-color: rgb(245, 245, 220);
     width: 100%;
     height: 100%;
     padding-bottom: 20vh;
@@ -14,7 +26,7 @@
 
 .container_dark{
     padding-top: 15vh;
-    background-color: 131111;
+    background-color:#282d2d;
     width: 100%;
     height: 100%;
     padding-bottom: 20vh;

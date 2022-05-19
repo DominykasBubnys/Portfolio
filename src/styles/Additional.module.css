@@ -8,12 +8,20 @@
 .stack_container{
     width: 45%;
     list-style: none;
+    color: #73fac8;
+    text-shadow: 0 0 10px rgba(115, 250, 200, 0.4);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .certificates_container{
     width: 40%;
     max-height: 50vh;
     overflow-y: scroll;
+    background: rgba(0, 190, 225, 0.15);
+    border-radius: 20px 0 0 20px;
 
 }
 
@@ -26,7 +34,9 @@
 
 .image_container img{
     width: 100%;
+    background-color: aliceblue;
 }
+
 
 @media (max-width: 800px) {
 

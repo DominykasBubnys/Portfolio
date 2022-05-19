@@ -1,0 +1,65 @@
+.modal {
+  z-index: 100;
+  position: fixed;
+  top: 4vh;
+  background: rgb(12, 12, 12);
+  border-radius: 8px;
+  overflow: hidden;
+  color: rgb(153, 115, 115);
+  font-size: 1.3rem;
+  text-align: center;
+  width: 90%;
+  left: 5%;
+  box-shadow: inset 0px 0px 20px rgba(0, 151, 156, 0.4);
+}
+
+.modal__header {
+  text-align: center;
+  width: 100%;
+  padding: 1rem 0.5rem;
+  background: rgba(64, 51, 51, 1)s;
+  color: white;
+  font-family: 'Merriweather', serif;
+
+}
+
+.modal__header h2 {
+  margin: 0.5rem;
+}
+
+.modal__content {
+  padding: 1rem 0.5rem;
+}
+
+.modal__footer {
+  padding: 1rem 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .modal {
+    left: calc(50% - 30rem);
+    width: 60rem;
+  }
+}
+
+.modal-enter {
+  transform: translateY(-10rem);
+  opacity: 0;
+}
+
+.modal-enter-active {
+  transform: translateY(0);
+  opacity: 1;
+  transition: all 200ms;
+}
+
+.modal-exit {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.modal-exit-active {
+  transform: translateY(-10rem);
+  opacity: 0;
+  transition: all 200ms;
+}
