@@ -33,10 +33,11 @@
   border-radius: 20px;
 
   background-color: #b9745a;
+
   background: radial-gradient(
     farthest-corner at var(--x, 0) var(--y, 0),
-    rgb(245, 245, 220),
-    #d38b71
+    #73fac8,
+    #00bee1
   );
   transition: 0.4s;
 }
@@ -62,7 +63,7 @@ input:checked + .slider:before {
   transform: translateX(37px);
   background: radial-gradient(
     farthest-corner at var(--x, 0) var(--y, 0),
-    #73fac8,
-    #00bee1
+    rgb(245, 245, 220),
+    #d38b71
   );
 }

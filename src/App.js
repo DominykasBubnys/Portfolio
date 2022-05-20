@@ -10,7 +10,7 @@ import "./styles/global.css"
 
 const App = () => {
 
-  const [darkTheme, setDarkTheme] = useState(false);
+  const [darkTheme, setDarkTheme] = useState(true);
 
   const toggleTheme = useCallback(() => {
     setDarkTheme(!darkTheme)

@@ -4,14 +4,13 @@ import classes from "../styles/CardHeader.module.css";
 
 const CardHeader = ({text}) => {
 
-    const {darkTheme} = useContext(ThemeContext);
-    console.log("dartheme: ", darkTheme)
+  const {darkTheme} = useContext(ThemeContext);
 
   return (
     <div className={classes.container}>
-        <h1 className={classes.h1}>
-            {text}
-        </h1>
+      <h1 className={darkTheme ? classes.h1 : classes.h1_bright}>
+        {text}
+      </h1>
     </div>
   )
 }

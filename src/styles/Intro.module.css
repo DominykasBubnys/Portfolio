@@ -1,7 +1,6 @@
 .container{
     width: 45%;
     margin: 0 auto;
-
     border-radius: 20px 20px 5px 5px;
     overflow: hidden;
 }
@@ -11,6 +10,14 @@
     letter-spacing: 2;
     line-height: 1.8;
     color: hsla(0, 0%, 100%, 0.6);
+    padding: 30px;
+}
+
+.paragraph_bright{
+    font-family: 'Noto Sans', sans-serif;
+    letter-spacing: 2;
+    line-height: 1.8;
+    color: hsla(47, 46%, 14%, 0.6);
     padding: 30px;
 }
 

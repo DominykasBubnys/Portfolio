@@ -14,6 +14,30 @@
     justify-content: center;
     flex-direction: column;
     justify-content: space-around;
+    font-size: 1.15em;
+
+}
+
+li{
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+.stack_container_bright{
+    width: 45%;
+    list-style: none;
+    color: #111006;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.stack_container_bright li{
+    color: #20001c;
+    text-shadow: 0 0 10px rgba(230, 250, 115, 0.4);
+    font-size: 1.15em;
+
 }
 
 .certificates_container{
@@ -22,7 +46,22 @@
     overflow-y: scroll;
     background: rgba(0, 190, 225, 0.15);
     border-radius: 20px 0 0 20px;
+}
 
+.certificates_container_bright{
+    width: 40%;
+    max-height: 50vh;
+    overflow-y: scroll;
+    border-radius: 20px 0 0 20px;
+    background: linear-gradient(135deg, #f3ab9080,
+    #fac3c39f);
+}
+
+.image_container_bright{
+    width: 55%;
+    border-radius: 5px;
+    margin: 20px auto;
+    overflow: hidden;
 }
 
 .image_container{
@@ -32,7 +71,11 @@
     overflow: hidden;
 }
 
-.image_container img{
+.image_container_bright h5{
+    color: #111006;
+}
+
+.image_container img, .image_container_bright img{
     width: 100%;
     background-color: aliceblue;
 }
@@ -40,9 +83,10 @@
 
 @media (max-width: 800px) {
 
-    .certificates_container, .image_container{
+    .certificates_container, .image_container, .image_container_bright{
         width: 90%;
     }
 
     
 }
+
