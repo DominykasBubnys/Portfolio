@@ -43,7 +43,7 @@ const ProjectsItem = ({item}) => {
           <div className={`${classes.modal_content} ${classes.modal_about}`}>
             <h2>About project</h2>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
+              {item.about}
             </p>
           </div>
         </div>

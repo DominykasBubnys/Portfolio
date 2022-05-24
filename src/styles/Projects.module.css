@@ -112,4 +112,12 @@
     .modal_about{
         margin-top: 20px;
     }
+
+    .modal_tech{
+        display: none;
+    }
+
+    .modal_image{
+        width: 100%;
+    }
 }

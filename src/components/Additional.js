@@ -24,22 +24,22 @@ const Additional = (props) => {
 
             <div className={darkTheme ? classes.image_container : classes.image_container_bright}>
                 <img src={"./assets/certificate_1.jpg"} alt="" />
-                <h5>Certificated at 2022 - 02</h5>
+                <h3>Certificated at 2022 - 02</h3>
             </div>
 
             <div className={darkTheme ? classes.image_container : classes.image_container_bright}>
-                <img src={"./assets/certificate_1.jpg"} alt="" />
-                <h5>Certificated at 2022 - 05</h5>
+                <img src={"./assets/certificate_2.jpg"} alt="" />
+                <h3>Certificated at 2022 - 05</h3>
             </div>
 
             <div className={darkTheme ? classes.image_container : classes.image_container_bright}>
                 <img src={"./assets/certificate_3.png"} alt="" />
-                <h5>In process! Started at 2021-11</h5>
+                <h3>In process! Started at 2021-11</h3>
             </div>
 
             <div className={darkTheme ? classes.image_container : classes.image_container_bright}>
                 <img src={"./assets/certificate_4.jpg"} alt="" />
-                <h5>In process! Started at 2020 - 09</h5>
+                <h3>In process! Started at 2020 - 09</h3>
             </div>
 
         </div>

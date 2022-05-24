@@ -1,5 +1,5 @@
 .container{
-    width: 45%;
+    width: 60%;
     margin: 0 auto;
     border-radius: 20px 20px 5px 5px;
     overflow: hidden;
@@ -11,6 +11,7 @@
     line-height: 1.8;
     color: hsla(0, 0%, 100%, 0.6);
     padding: 30px;
+    font-size: 1.20em;
 }
 
 .paragraph_bright{
@@ -24,5 +25,9 @@
 @media (max-width: 800px) {
     .container{
         width: 90%;
+    }
+
+    .paragraph{
+        padding: 15px;
     }
 }
