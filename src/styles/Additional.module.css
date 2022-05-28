@@ -1,5 +1,4 @@
 .container{
-    color: aliceblue;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -8,14 +7,17 @@
 .stack_container{
     width: 45%;
     list-style: none;
-    color: #73fac8;
-    text-shadow: 0 0 10px rgba(115, 250, 200, 0.4);
     display: flex;
     justify-content: center;
     flex-direction: column;
     justify-content: space-around;
     font-size: 1.15em;
 
+}
+
+.stack_container li{
+    color: #c3c3c3;
+    text-shadow: 0 0 10px rgba(115, 250, 200, 0.4);
 }
 
 li{
@@ -26,7 +28,6 @@ li{
 .stack_container_bright{
     width: 45%;
     list-style: none;
-    color: #111006;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -84,8 +85,14 @@ li{
 @media (max-width: 800px) {
 
     .certificates_container, .certificates_container_bright, .image_container, .image_container_bright{
-        width: 90%;
+        width: 92%;
     }
+
+    .image_container, .image_container_bright{
+        width: 95%;
+    }
+
+    
 
     .certificates_container, .certificates_container_bright{
         margin-top: 20px;

@@ -20,6 +20,8 @@
     line-height: 1.8;
     color: hsla(47, 46%, 14%, 0.6);
     padding: 30px;
+    font-size: 1.20em;
+
 }
 
 @media (max-width: 800px) {
@@ -27,7 +29,8 @@
         width: 90%;
     }
 
-    .paragraph{
-        padding: 15px;
+    .paragraph, .paragraph_bright{
+        padding: 20px;
+        font-size: 1em;
     }
 }
