@@ -53,8 +53,8 @@ li{
     max-height: 65vh;
     overflow-y: scroll;
     border-radius: 20px 0 0 20px;
-    background: linear-gradient(135deg, #f3ab9080,
-    #fac3c369);
+    background: linear-gradient(135deg, #e0dfddfe,
+    #90909069);
 }
 
 .image_container_bright{

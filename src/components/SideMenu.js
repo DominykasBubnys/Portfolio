@@ -8,20 +8,26 @@ const SideMenu = () => {
         <img src="./assets/menu_logo.png" />
       </div> */}
       <div className={classes.content}>
-        <a target="_blank" href="https://github.com/DominykasBubnys">
-          <img src="./assets/side_1.jpg" />
+        <a
+          rel="noreferrer"
+          target="_blank"
+          href="https://github.com/DominykasBubnys"
+        >
+          <img alt="" src="./assets/side_1.jpg" />
         </a>
         <a
+          rel="noreferrer"
           target="_blank"
           href="https://www.linkedin.com/in/dominykas-bubnys-90ab471ba/"
         >
-          <img src="./assets/side_2.png" />
+          <img alt="" src="./assets/side_2.png" />
         </a>
         <a
+          rel="noreferrer"
           target="_blank"
           href="https://www.linkedin.com/in/dominykas-bubnys-90ab471ba/"
         >
-          <img src="./assets/side_3.png" />
+          <img alt="" src="./assets/side_3.png" />
         </a>
       </div>
     </div>

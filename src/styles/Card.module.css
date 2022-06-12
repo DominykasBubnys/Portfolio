@@ -14,7 +14,7 @@
     margin-bottom: 0px;
     overflow: hidden;
     border-radius: 20px 20px 5px 5px;
-    box-shadow: 0 2px 74px 0 #d38b71;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 @media (max-width: 800px) {

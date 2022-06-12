@@ -64,6 +64,6 @@ input:checked + .slider:before {
   background: radial-gradient(
     farthest-corner at var(--x, 0) var(--y, 0),
     rgb(245, 245, 220),
-    #d38b71
+    #918888
   );
 }
