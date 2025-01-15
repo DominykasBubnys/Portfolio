@@ -1,0 +1,43 @@
+[debug] [2023-07-26T19:56:41.651Z] ----------------------------------------------------------------------
+[debug] [2023-07-26T19:56:41.653Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\domin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-07-26T19:56:41.653Z] CLI Version:   11.3.0
+[debug] [2023-07-26T19:56:41.653Z] Platform:      win32
+[debug] [2023-07-26T19:56:41.653Z] Node Version:  v16.15.1
+[debug] [2023-07-26T19:56:41.654Z] Time:          Wed Jul 26 2023 22:56:41 GMT+0300 (Moscow Standard Time)
+[debug] [2023-07-26T19:56:41.654Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-07-26T19:56:41.699Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-07-26T19:56:41.699Z] > authorizing via signed-in user (dominykasbubnys@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\domin\Desktop\coding_projects\Portfolio
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-07-26T19:56:52.994Z] Using project from CLI flag: dominykas-bubnys
+[debug] [2023-07-26T19:56:52.996Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/dominykas-bubnys [none]
+[debug] [2023-07-26T19:56:53.266Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/dominykas-bubnys 403
+[debug] [2023-07-26T19:56:53.266Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/dominykas-bubnys {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-07-26T19:56:53.267Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-07-26T19:56:53.344Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\domin\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\domin\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:287:77)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project dominykas-bubnys. Please make sure the project exists and your account has permission to access it.

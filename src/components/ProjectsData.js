@@ -2,10 +2,10 @@ const ProjectsData = [
   {
     name: 'Travels app',
     imageUrl: '/assets/project_1.png',
-    githubUrl: 'https://github.com/DominykasBubnys/travels_front-end',
-    LiveUrl: 'https://destinations-sharing-platform.web.app/',
+    githubUrl: 'https://github.com/DominykasBubnys/private ;)',
+    LiveUrl: 'https://tripwhoop.com/',
     about: `This platform allows users to share places they likes. There is all CRUD operations used`,
-    stack: ['NodeJS', 'JS', 'React', 'MongoDB', 'ExpressJS']
+    stack: ['NodeJS', 'ReactJS', 'MongoDB', 'ExpressJS', 'Socket.io', "SMTP"]
   },
 
   {

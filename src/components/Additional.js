@@ -51,7 +51,7 @@ const Additional = (props) => {
           }
         >
           <img src={'./assets/certificate_3.png'} alt="" />
-          <h3>In process! Started at 2021-11</h3>
+          <h3>Certificated at 2022-08-16</h3>
         </div>
 
         <div
